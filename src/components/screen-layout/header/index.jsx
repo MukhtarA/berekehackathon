@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
-import { IconLoader } from '../../icon'
+import { IconLoader} from '../../../components'
 import { Headline4, Typography } from '../../typography'
 
 import {

@@ -1,25 +1,31 @@
 import { ThemeProvider } from '@emotion/react'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {useMobileConfigs} from './utils/mobile-actions'
-import { ButtonPrimary,  Typography } from "./components";
+import { ButtonPrimary,  IconLoader,  Typography } from "./components";
 import themeColors from './components/styles/theme-colors'
+import * as common from './assets/common'
+import DemoScreen from './features/demo-screen';
 
 const MODES = {
     DARK: 'DARK',
     LIGHT: 'LIGHT'
 }
 
-const theme = themeColors[MODES.LIGHT]
+IconLoader.addIcons('icon:core/common', common)
 
 
 function App() {
   const {mode} = useMobileConfigs()
+
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={themeColors[MODES.LIGHT]}>
     <div className="App">
-      {/* <IconViewer /> */}
-      
-     <ButtonPrimary title={'someTitle'} />
-     <Typography>Test</Typography>
+      <Router baseName='/'>
+      <Switch>
+        <Route exact path='/' component={DemoScreen} />
+      </Switch>
+      </Router>
+     {/* <ButtonPrimary title={'someTitle'} /> */}
     </div>
     </ThemeProvider>
   );

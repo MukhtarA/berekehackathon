@@ -3,7 +3,8 @@ import React from 'react'
 import _ from 'lodash'
 import styled from '@emotion/styled'
 
-import * as commonIcons from '../assets/common'
+import * as commonIcons from '../assets/common/index'
+
 
 const IconViewer = () => (
     <LayoutStyled>
