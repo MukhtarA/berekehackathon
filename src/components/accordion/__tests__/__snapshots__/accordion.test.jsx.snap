@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion> Проверка отрисовки с условным рендерингом 1`] = `
+.emotion-0 .ReactCollapse--content {
+  padding-bottom: 24px;
+}
+
+.emotion-0 .ReactCollapse--collapse {
+  -webkit-transition: height 0.17s ease-in-out;
+  transition: height 0.17s ease-in-out;
+}
+
+.emotion-2 {
+  display: block;
+  border: 1px solid transparent;
+  border-bottom: 1px solid;
+}
+
+.emotion-2:last-child {
+  border-bottom-color: transparent;
+}
+
+.emotion-4 {
+  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  background-color: transparent;
+}
+
+.emotion-4 .emotion-11 {
+  border: 0;
+  background: transparent;
+}
+
+body:not(.pointer-events) .emotion-4:focus {
+  box-shadow: inset 0px 0px 0px 2px;
+}
+
+.emotion-6 {
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-6>:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.emotion-6>:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-10 {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  font-family: SBSansDisplay,Arial,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding-right: calc(24px + 20px + 0px);
+}
+
+.emotion-12 {
+  display: inline-block;
+  position: relative;
+  width: 12px;
+  height: 28px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: -webkit-transform 0.17s ease-in-out;
+  transition: transform 0.17s ease-in-out;
+}
+
+.emotion-12 svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emotion-17 {
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  width: 12px;
+  height: 28px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: -webkit-transform 0.17s ease-in-out;
+  transition: transform 0.17s ease-in-out;
+}
+
+.emotion-17 svg {
+  display: block;
+}
+
+.emotion-17 svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emotion-19 {
+  visibility: hidden;
+}
+
+<Accordion
+  collapsible={false}
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  size="h3"
+>
+  <AccordionWrapperStyled
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+    size="h3"
+  >
+    <div
+      className="emotion-0 emotion-1"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+      size="h3"
+    >
+      <AccordionItem
+        aria-level="1"
+        collapsible={false}
+        forceOpened={false}
+        id="1"
+        key=".0"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        size="h3"
+      >
+        <AccordionItemStyled
+          isOpened={false}
+        >
+          <div
+            className="emotion-2 emotion-3"
+          >
+            <HeadingStyled
+              aria-controls="1-section"
+              aria-expanded={false}
+              aria-level="1"
+              id="1-title"
+              isOpened={false}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="heading"
+              size="h3"
+              type="button"
+              verticalPadding="inner"
+            >
+              <button
+                aria-controls="1-section"
+                aria-expanded={false}
+                aria-level="1"
+                className="emotion-4 emotion-12"
+                id="1-title"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="heading"
+                size="h3"
+                type="button"
+              >
+                <AccordionSummary
+                  isOpened={false}
+                  key=".$.0"
+                  size="h3"
+                  title="Title h3"
+                >
+                  <AccordionHeadingStyled>
+                    <div
+                      className="emotion-6 emotion-11"
+                    >
+                      <AccordionHeaderTextStyled>
+                        <div
+                          className="emotion-8 emotion-9"
+                        >
+                          <AccordionTitleStyled
+                            as="h3"
+                            icon={null}
+                            indent="zero"
+                            size="h3"
+                            variant="h3"
+                          >
+                            <h3
+                              className="emotion-10 emotion-11"
+                              size="h3"
+                            >
+                              Title h3
+                            </h3>
+                          </AccordionTitleStyled>
+                          <AccordionIcon
+                            isOpened={false}
+                          >
+                            <ChevronIconStyled
+                              colorScheme="primary"
+                              height={28}
+                              icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>"
+                              isOpened={false}
+                              width={12}
+                            >
+                              <Icon
+                                className="emotion-12 emotion-13"
+                                colorScheme="primary"
+                                height={28}
+                                icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>"
+                                isOpened={false}
+                                width={12}
+                              >
+                                <WrapperStyled
+                                  className="emotion-12 emotion-13"
+                                  colorScheme="primary"
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>",
+                                    }
+                                  }
+                                  onClick={[Function]}
+                                >
+                                  <span
+                                    className="emotion-13 emotion-17 emotion-18"
+                                    dangerouslySetInnerHTML={
+                                      Object {
+                                        "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>",
+                                      }
+                                    }
+                                    onClick={[Function]}
+                                  />
+                                </WrapperStyled>
+                              </Icon>
+                            </ChevronIconStyled>
+                          </AccordionIcon>
+                        </div>
+                      </AccordionHeaderTextStyled>
+                    </div>
+                  </AccordionHeadingStyled>
+                </AccordionSummary>
+              </button>
+            </HeadingStyled>
+            <CollapseWrapperStyled
+              aria-labelledby="1-title"
+              id="1-section"
+              isOpened={false}
+              role="region"
+            >
+              <div
+                aria-labelledby="1-title"
+                className="emotion-19 emotion-20"
+                id="1-section"
+                role="region"
+              >
+                <Collapse
+                  checkTimeout={50}
+                  isOpened={false}
+                  theme={
+                    Object {
+                      "collapse": "ReactCollapse--collapse",
+                      "content": "ReactCollapse--content",
+                    }
+                  }
+                >
+                  <div
+                    className="ReactCollapse--collapse"
+                    style={
+                      Object {
+                        "height": "0px",
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <div
+                      className="ReactCollapse--content"
+                    >
+                      <AccordionContent
+                        key=".1"
+                      >
+                        <div
+                          aria-label="accordion group"
+                          role="group"
+                        >
+                          Целевая аудитория по-прежнему востребована. Диктат потребителя конкурентоспособен. Российская специфика обуславливает потребительский рынок
+                        </div>
+                      </AccordionContent>
+                    </div>
+                  </div>
+                </Collapse>
+              </div>
+            </CollapseWrapperStyled>
+          </div>
+        </AccordionItemStyled>
+      </AccordionItem>
+    </div>
+  </AccordionWrapperStyled>
+</Accordion>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuItem /> Snapshot 1`] = `
+<div>
+  <MenuItem
+    title="testTitle"
+  />
+  <MenuItem
+    icon="icon:core/cards/mc-36-mastercard-black-edition"
+  />
+  <MenuItem
+    icon="icon:core/cards/mc-36-mastercard-black-edition"
+    title="testTitle"
+  />
+</div>
+`;

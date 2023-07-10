@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <radialGradient id="hcygqzleab" cx="12.183%" cy="35.055%" r="133.987%" fx="12.183%" fy="35.055%" gradientTransform="scale(.71429 1) rotate(23.426 .146 .468)">
+            <stop offset="0%" stop-color="#F3F3F3"/>
+            <stop offset="57.135%" stop-color="#ABABAB"/>
+            <stop offset="100%" stop-color="#66666E"/>
+        </radialGradient>
+        <linearGradient id="ykchzj4s7c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".42"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".01"/>
+        </linearGradient>
+        <rect id="zkbaqiet6a" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="w5ljz7adld" fill="#fff">
+            <use xlink:href="#zkbaqiet6a"/>
+        </mask>
+        <use fill="url(#hcygqzleab)" xlink:href="#zkbaqiet6a"/>
+        <path fill="url(#ykchzj4s7c)" d="M4 8L28 8 4 28z" mask="url(#w5ljz7adld)"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".6" fill-rule="nonzero" mask="url(#w5ljz7adld)"/>
+        <g mask="url(#w5ljz7adld)">
+            <g fill-rule="nonzero" transform="translate(19 20)">
+                <rect width="7" height="5" x="3" fill="#F79E1B" rx="2.5"/>
+                <rect width="7" height="5" fill="#EB001B" rx="2.5"/>
+                <path fill="#FF5F00" d="M7 2.5c0 1.21-.859 2.218-2 2.45-1.14-.231-2-1.24-2-2.45C3 1.29 3.86.281 5 .05 6.142.282 7 1.29 7 2.5z"/>
+            </g>
+        </g>
+    </g>
+</svg>

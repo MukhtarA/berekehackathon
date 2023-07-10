@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> Snapshot 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border: solid 1px;
+  border-radius: 4px;
+  -webkit-transition: 0.17s ease box-shadow;
+  transition: 0.17s ease box-shadow;
+  height: 54px;
+  border-style: solid;
+  border: solid 1px;
+  pointer-events: none;
+  padding: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.emotion-0:hover {
+  border: solid 1px;
+}
+
+.emotion-2 {
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 4px;
+  width: 100%;
+  outline: none;
+  display: block;
+  font-weight: 500;
+  background-color: transparent;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  -ms-appearance: textfield;
+  appearance: textfield;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+  margin-right: 0px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.emotion-2::-ms-clear {
+  display: none;
+}
+
+.emotion-2::-webkit-inner-spin-button,
+.emotion-2::-webkit-outer-spin-button,
+.emotion-2::-webkit-clear-button,
+.emotion-2::-webkit-inner-spin-button,
+.emotion-2::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.emotion-2:-webkit-autofill,
+.emotion-2:-webkit-autofill:hover,
+.emotion-2:-webkit-autofill:focus,
+.emotion-2:-webkit-autofill:active {
+  -webkit-text-fill-color: inherit;
+  box-shadow: 0 0 0 1000px transparent inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.emotion-4 {
+  padding: 0;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: background-color 0.17s ease-in-out,box-shadow 0.17s ease-in-out,border-color 0.17s ease-in-out;
+  transition: background-color 0.17s ease-in-out,box-shadow 0.17s ease-in-out,border-color 0.17s ease-in-out;
+}
+
+.emotion-4::before {
+  position: absolute;
+  height: 36px;
+  width: 1px;
+  content: '';
+  right: 48px;
+}
+
+body:not(.pointer-events) .emotion-4:focus {
+  box-shadow: inset 0px 0px 0px 2px;
+}
+
+.emotion-6 {
+  width: 36px;
+  height: 36px;
+  overflow: initial;
+}
+
+.emotion-11 {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  overflow: initial;
+}
+
+.emotion-11 svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emotion-18 {
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  overflow: initial;
+}
+
+.emotion-18 svg {
+  display: block;
+}
+
+.emotion-18 svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+<OmittedComponent
+  a11y={
+    Object {
+      "label": "Демонстрационное поле",
+    }
+  }
+  disabled={true}
+  icon="iconExampleValue"
+  id="idValue"
+  onChange={[MockFunction]}
+  onClick={[MockFunction]}
+  placeholder="Текст"
+  value="testValue"
+>
+  <Component
+    a11y={
+      Object {
+        "label": "Демонстрационное поле",
+      }
+    }
+    disabled={true}
+    icon="iconExampleValue"
+    id="idValue"
+    onChange={[MockFunction]}
+    onClick={[MockFunction]}
+    placeholder="Текст"
+    value="testValue"
+  >
+    <WrapperStyled
+      disabled={true}
+      focused={false}
+      horizontalPadding="inner"
+      size="md"
+      verticalPadding="inner"
+    >
+      <span
+        className="emotion-0 emotion-1"
+        disabled={true}
+        size="md"
+      >
+        <TextFieldStyled
+          aria-label="Демонстрационное поле"
+          disabled={true}
+          horizontalMargin="zero"
+          horizontalMarginDirection="right"
+          horizontalPadding="inner"
+          icon="iconExampleValue"
+          id="idValue"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          placeholder="Текст"
+          size="md"
+          value="testValue"
+          verticalPadding="inner"
+        >
+          <input
+            aria-label="Демонстрационное поле"
+            className="emotion-2 emotion-3"
+            disabled={true}
+            id="idValue"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            placeholder="Текст"
+            size="md"
+            value="testValue"
+          />
+        </TextFieldStyled>
+        <WrapperButtonStyled
+          as="span"
+          bordered={true}
+          onClick={[MockFunction]}
+          size="md"
+        >
+          <span
+            className="emotion-4 emotion-5"
+            onClick={[MockFunction]}
+            size="md"
+          >
+            <IconStyled
+              icon="iconExampleValue"
+              size="md"
+            >
+              <IconViewBox
+                className="emotion-6 emotion-7"
+                icon="iconExampleValue"
+                size="md"
+              >
+                <IconViewBoxStyled
+                  className="emotion-6 emotion-7"
+                  icon="iconExampleValue"
+                  size="md"
+                >
+                  <Icon
+                    className="emotion-7 emotion-11 emotion-12"
+                    icon="iconExampleValue"
+                    size="md"
+                  >
+                    <WrapperStyled
+                      className="emotion-7 emotion-11 emotion-12"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "iconExampleValue",
+                        }
+                      }
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="emotion-7 emotion-12 emotion-18 emotion-19"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "iconExampleValue",
+                          }
+                        }
+                        onClick={[Function]}
+                      />
+                    </WrapperStyled>
+                  </Icon>
+                </IconViewBoxStyled>
+              </IconViewBox>
+            </IconStyled>
+          </span>
+        </WrapperButtonStyled>
+      </span>
+    </WrapperStyled>
+  </Component>
+</OmittedComponent>
+`;

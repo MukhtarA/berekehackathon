@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Autocomplete /> Snapshot 1`] = `
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border: solid 1px;
+  border-radius: 4px;
+  -webkit-transition: 0.17s ease box-shadow;
+  transition: 0.17s ease box-shadow;
+  height: 66px;
+  padding: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.emotion-4:hover {
+  border: solid 1px;
+}
+
+.emotion-6 {
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 4px;
+  width: 100%;
+  outline: none;
+  display: block;
+  font-weight: 500;
+  background-color: transparent;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  -ms-appearance: textfield;
+  appearance: textfield;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.emotion-6::-ms-clear {
+  display: none;
+}
+
+.emotion-6::-webkit-inner-spin-button,
+.emotion-6::-webkit-outer-spin-button,
+.emotion-6::-webkit-clear-button,
+.emotion-6::-webkit-inner-spin-button,
+.emotion-6::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.emotion-6:-webkit-autofill,
+.emotion-6:-webkit-autofill:hover,
+.emotion-6:-webkit-autofill:focus,
+.emotion-6:-webkit-autofill:active {
+  -webkit-text-fill-color: inherit;
+  box-shadow: 0 0 0 1000px transparent inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+<Autocomplete
+  id="example-id"
+  mode="loading"
+  onChange={[MockFunction]}
+  placeholder="example-placeholder"
+  size="lg"
+>
+  <OnClickOutside(Perimeter)
+    disableOnClickOutside={true}
+    eventTypes={
+      Array [
+        "mousedown",
+        "touchstart",
+      ]
+    }
+    excludeScrollbar={false}
+    onClickOutside={[Function]}
+    outsideClickIgnoreClass="ignore-react-onclickoutside"
+    preventDefault={false}
+    stopPropagation={false}
+  >
+    <Perimeter
+      disableOnClickOutside={[Function]}
+      enableOnClickOutside={[Function]}
+      eventTypes={
+        Array [
+          "mousedown",
+          "touchstart",
+        ]
+      }
+      onClickOutside={[Function]}
+      outsideClickIgnoreClass="ignore-react-onclickoutside"
+      preventDefault={false}
+      stopPropagation={false}
+    >
+      <WrapperStyled
+        id="example-id-wrapper"
+      >
+        <div
+          className="emotion-0 emotion-1"
+          id="example-id-wrapper"
+        >
+          <TargetStyled
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-owns="example-id-contents"
+            role="combobox"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="example-id-contents"
+              className="emotion-2 emotion-3"
+              role="combobox"
+            >
+              <OmittedComponent
+                aria-autocomplete="list"
+                autoComplete="off"
+                id="example-id"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="example-placeholder"
+                size="lg"
+                verticalMargin="zero"
+              >
+                <Component
+                  aria-autocomplete="list"
+                  autoComplete="off"
+                  id="example-id"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="example-placeholder"
+                  size="lg"
+                  verticalMargin="zero"
+                >
+                  <WrapperStyled
+                    focused={false}
+                    horizontalPadding="inner"
+                    size="lg"
+                    verticalPadding="inner"
+                  >
+                    <span
+                      className="emotion-4 emotion-5"
+                      size="lg"
+                    >
+                      <TextFieldStyled
+                        aria-autocomplete="list"
+                        autoComplete="off"
+                        horizontalMargin="zero"
+                        horizontalMarginDirection="right"
+                        horizontalPadding="inner"
+                        id="example-id"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder="example-placeholder"
+                        size="lg"
+                        verticalMargin="zero"
+                        verticalPadding="inner"
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          autoComplete="off"
+                          className="emotion-6 emotion-7"
+                          id="example-id"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          placeholder="example-placeholder"
+                          size="lg"
+                        />
+                      </TextFieldStyled>
+                    </span>
+                  </WrapperStyled>
+                </Component>
+              </OmittedComponent>
+            </div>
+          </TargetStyled>
+        </div>
+      </WrapperStyled>
+    </Perimeter>
+  </OnClickOutside(Perimeter)>
+</Autocomplete>
+`;

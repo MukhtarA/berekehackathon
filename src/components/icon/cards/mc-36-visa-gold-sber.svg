@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="ruez0bprzd" x1="0%" x2="79.885%" y1="24.49%" y2="74.601%">
+            <stop offset="0%" stop-color="#E2CA1E"/>
+            <stop offset="50.757%" stop-color="#CD9B08"/>
+            <stop offset="100%" stop-color="#ECD84F"/>
+        </linearGradient>
+        <linearGradient id="8l0q1hydbf" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".3"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".01"/>
+        </linearGradient>
+        <rect id="dhxjgnm0za" width="28" height="20" x="4" y="8" rx="2.5"/>
+        <path id="tu49hztlrc" d="M0 0H20V20H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="oci0odkhgb" fill="#fff">
+            <use xlink:href="#dhxjgnm0za"/>
+        </mask>
+        <use fill="#000" fill-opacity=".14" xlink:href="#dhxjgnm0za"/>
+        <g mask="url(#oci0odkhgb)">
+            <g transform="translate(4 8)">
+                <mask id="aoakei4dye" fill="#fff">
+                    <use xlink:href="#tu49hztlrc"/>
+                </mask>
+                <rect width="28" height="20" fill="url(#ruez0bprzd)" mask="url(#aoakei4dye)" rx="2.5"/>
+            </g>
+        </g>
+        <rect width="10" height="5" x="19" y="20" fill="#3A63C6" fill-rule="nonzero" mask="url(#oci0odkhgb)" rx="2.5"/>
+        <path fill="url(#8l0q1hydbf)" d="M4 8L28 8 4 28z" mask="url(#oci0odkhgb)"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#oci0odkhgb)"/>
+    </g>
+</svg>

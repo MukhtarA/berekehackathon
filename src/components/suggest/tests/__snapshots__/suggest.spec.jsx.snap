@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Suggest /> Snapshot 1`] = `
+<MarginWrapper
+  size="md"
+  verticalMargin="micro"
+>
+  <SuggestsListStyled
+    role="listbox"
+  >
+    <SuggestWrapperStyled
+      key="test0"
+      role="presentation"
+    >
+      <SuggestButtonStyled
+        aria-label=" test0"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <TypographyStyled
+          horizontalPadding="nano"
+          size="md"
+          verticalPadding="nano"
+        >
+          test0
+        </TypographyStyled>
+      </SuggestButtonStyled>
+    </SuggestWrapperStyled>
+    <SuggestWrapperStyled
+      key="test1"
+      role="presentation"
+    >
+      <SuggestButtonStyled
+        aria-label=" test1"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <TypographyStyled
+          horizontalPadding="nano"
+          size="md"
+          verticalPadding="nano"
+        >
+          test1
+        </TypographyStyled>
+      </SuggestButtonStyled>
+    </SuggestWrapperStyled>
+    <SuggestWrapperStyled
+      key="test2"
+      role="presentation"
+    >
+      <SuggestButtonStyled
+        aria-label=" test2"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <TypographyStyled
+          horizontalPadding="nano"
+          size="md"
+          verticalPadding="nano"
+        >
+          test2
+        </TypographyStyled>
+      </SuggestButtonStyled>
+    </SuggestWrapperStyled>
+    <SuggestWrapperStyled
+      key="test3"
+      role="presentation"
+    >
+      <SuggestButtonStyled
+        aria-label=" test3"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <TypographyStyled
+          horizontalPadding="nano"
+          size="md"
+          verticalPadding="nano"
+        >
+          test3
+        </TypographyStyled>
+      </SuggestButtonStyled>
+    </SuggestWrapperStyled>
+    <SuggestWrapperStyled
+      key="test4"
+      role="presentation"
+    >
+      <SuggestButtonStyled
+        aria-label=" test4"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <TypographyStyled
+          horizontalPadding="nano"
+          size="md"
+          verticalPadding="nano"
+        >
+          test4
+        </TypographyStyled>
+      </SuggestButtonStyled>
+    </SuggestWrapperStyled>
+  </SuggestsListStyled>
+</MarginWrapper>
+`;

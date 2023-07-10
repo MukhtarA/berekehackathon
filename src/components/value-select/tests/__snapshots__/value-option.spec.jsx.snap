@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ValueOption /> Snapshot 1`] = `
+<Fragment>
+  <IconLoaderStyled
+    name="icon:core/iconNameExample"
+    onClick={[Function]}
+    onError={[Function]}
+    size="lg"
+  />
+  <ItemColumnStyled>
+    <ItemTitleStyled
+      ellipsis={true}
+      fontWeight="medium"
+      size="lg"
+    >
+      title-example
+    </ItemTitleStyled>
+    <ItemDescriptionStyled
+      size="md"
+    >
+      description-example
+    </ItemDescriptionStyled>
+  </ItemColumnStyled>
+  <ItemColumnStyled>
+    <ItemAsideStyled
+      fontWeight="medium"
+      size="lg"
+    >
+      additional-title-example
+    </ItemAsideStyled>
+    <ItemAsideDescriptionStyled
+      size="md"
+    >
+      additional-description-example
+    </ItemAsideDescriptionStyled>
+  </ItemColumnStyled>
+</Fragment>
+`;

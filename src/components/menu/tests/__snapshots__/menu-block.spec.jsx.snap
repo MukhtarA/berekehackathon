@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuBlock /> Snapshot 1`] = `
+<li>
+  <BlockStyled
+    aria-label="hmm"
+  >
+    <MenuItem
+      key=".0"
+    />
+  </BlockStyled>
+</li>
+`;

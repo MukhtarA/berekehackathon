@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="ux055rbidb" x1="100%" x2="100%" y1="24.49%" y2="75.51%">
+            <stop offset="0%" stop-color="#B1B1B1"/>
+            <stop offset="60.424%" stop-color="#E6E6E6"/>
+            <stop offset="100%" stop-color="#B2B3B5"/>
+        </linearGradient>
+        <rect id="hfyx8abyga" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="vf6fyy0gdc" fill="#fff">
+            <use xlink:href="#hfyx8abyga"/>
+        </mask>
+        <use fill="url(#ux055rbidb)" xlink:href="#hfyx8abyga"/>
+        <path fill="#FFF" fill-opacity=".438" fill-rule="nonzero" d="M4 15.229L11.02 19.118 32 7 32 11.877 11.005 24 4 20.106z" mask="url(#vf6fyy0gdc)"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".6" fill-rule="nonzero" mask="url(#vf6fyy0gdc)"/>
+        <g mask="url(#vf6fyy0gdc)">
+            <g fill-rule="nonzero" transform="translate(19 20)">
+                <rect width="7" height="5" x="3" fill="#F79E1B" rx="2.5"/>
+                <rect width="7" height="5" fill="#EB001B" rx="2.5"/>
+                <path fill="#FF5F00" d="M7 2.5c0 1.21-.859 2.218-2 2.45-1.14-.231-2-1.24-2-2.45C3 1.29 3.86.281 5 .05 6.142.282 7 1.29 7 2.5z"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Anchor /> snapshot 1`] = `
+<TabsStyled>
+  <Header
+    parentId="anchor-link-wrapper-1"
+  >
+    <div>
+      <AnchorLink
+        forceOpened={true}
+        key=".0"
+        onChange={[Function]}
+        parentId="anchor-link-wrapper-1"
+        size="lg"
+        title="0"
+      >
+        0
+      </AnchorLink>
+      <AnchorLink
+        forceOpened={false}
+        key=".1"
+        onChange={[Function]}
+        parentId="anchor-link-wrapper-1"
+        size="lg"
+        title="1"
+      >
+        1
+      </AnchorLink>
+    </div>
+  </Header>
+  <TabsContentSectionStyled>
+    <div
+      id="anchor-link-id-0"
+      key="0-0"
+      style={
+        Object {
+          "outline": "none",
+        }
+      }
+      tabIndex="-1"
+    >
+      0
+    </div>
+    <div
+      id="anchor-link-id-1"
+      key="1-1"
+      style={
+        Object {
+          "outline": "none",
+        }
+      }
+      tabIndex="-1"
+    >
+      1
+    </div>
+  </TabsContentSectionStyled>
+</TabsStyled>
+`;

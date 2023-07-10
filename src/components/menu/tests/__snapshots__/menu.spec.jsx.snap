@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> Snapshot 1`] = `
+<OnClickOutside(Perimeter)
+  eventTypes={
+    Array [
+      "mousedown",
+      "touchstart",
+    ]
+  }
+  excludeScrollbar={false}
+  onClickOutside={[Function]}
+  outsideClickIgnoreClass="ignore-react-onclickoutside"
+  preventDefault={false}
+  stopPropagation={false}
+>
+  <MenuStyled
+    aria-activedescendant={[Function]}
+    expanded={false}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    position="normal"
+    size="md"
+  >
+    <ButtonStyled
+      aria-haspopup="true"
+      aria-label="Menu"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      size="md"
+    >
+      <IconViewBoxStyled
+        icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path fill-rule=\\"evenodd\\" d=\\"M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z\\"/></svg>"
+        size="md"
+      />
+    </ButtonStyled>
+    <ListStyled
+      onKeyDown={[Function]}
+      role="menu"
+      size="md"
+    >
+      <MenuBlock
+        a11y={
+          Object {
+            "title": "first MenuBlock",
+          }
+        }
+        activeDescendant=""
+        key=".0"
+        onClose={[Function]}
+      >
+        <MenuItem
+          title="TITLE"
+        />
+      </MenuBlock>
+      <MenuBlock
+        a11y={
+          Object {
+            "title": "second MenuBlock",
+          }
+        }
+        activeDescendant=""
+        key=".1"
+        onClose={[Function]}
+      >
+        <MenuItem />
+        <MenuItem
+          title="MenuItem 2"
+        />
+        <MenuItem
+          icon="icon:core/cards/mc-36-mastercard-black-edition"
+        />
+        <MenuItem
+          icon="icon:core/cards/mc-36-mir-sbercard-level-1"
+          title="MenuItem 3"
+        />
+      </MenuBlock>
+    </ListStyled>
+  </MenuStyled>
+</OnClickOutside(Perimeter)>
+`;

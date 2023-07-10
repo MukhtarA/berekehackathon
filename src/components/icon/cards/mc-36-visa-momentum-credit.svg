@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="py0fiddycb" x1="2.185%" x2="84.975%" y1="25.802%" y2="75.51%">
+            <stop offset="0%" stop-color="#DEDEEC"/>
+            <stop offset="36.041%" stop-color="#D8D7D7"/>
+            <stop offset="73.334%" stop-color="#C8C8C8"/>
+            <stop offset="100%" stop-color="#DCDCDC"/>
+        </linearGradient>
+        <rect id="juuze2ojma" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="fyyhvx090c" fill="#fff">
+            <use xlink:href="#juuze2ojma"/>
+        </mask>
+        <use fill="url(#py0fiddycb)" xlink:href="#juuze2ojma"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#fyyhvx090c)"/>
+        <rect width="10" height="5" x="19" y="20" fill="#3A63C6" fill-rule="nonzero" mask="url(#fyyhvx090c)" rx="2.5"/>
+        <path fill="#279D88" fill-rule="nonzero" d="M4 15.229L11.02 19.118 32 7 32 11.877 11.005 24 4 20.106z" mask="url(#fyyhvx090c)"/>
+    </g>
+</svg>

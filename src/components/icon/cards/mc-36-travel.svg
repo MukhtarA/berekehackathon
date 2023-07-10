@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="69rehhsugb" x1="0%" x2="79.885%" y1="24.49%" y2="74.601%">
+            <stop offset="0%" stop-color="#06DE1B"/>
+            <stop offset="50.757%" stop-color="#00C9AA"/>
+            <stop offset="100%" stop-color="#CADAE8"/>
+        </linearGradient>
+        <linearGradient id="ec67lgxbwc" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".3"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".01"/>
+        </linearGradient>
+        <rect id="8wqx6vs0ka" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="dcj27zow8d" fill="#fff">
+            <use xlink:href="#8wqx6vs0ka"/>
+        </mask>
+        <use fill="url(#69rehhsugb)" xlink:href="#8wqx6vs0ka"/>
+        <path fill="url(#ec67lgxbwc)" d="M4 8L28 8 4 28z" mask="url(#dcj27zow8d)"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" mask="url(#dcj27zow8d)" opacity=".5"/>
+    </g>
+</svg>

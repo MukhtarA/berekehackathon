@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> renders title, description, children 1`] = `
+<ContainerStyled>
+  <ContentStyled
+    size="h3"
+    verticalPadding="inner"
+  >
+    <Headline3
+      indent="zero"
+    >
+      Заголовок
+    </Headline3>
+    <TypographyStyled
+      as="div"
+      colorScheme="secondary"
+      size="md"
+      verticalMargin="micro"
+    >
+      описание
+    </TypographyStyled>
+    <PaddingWrapper
+      verticalPadding="inner"
+    >
+      <span>
+        foo bar baz
+      </span>
+    </PaddingWrapper>
+  </ContentStyled>
+  <ImageWrapperStyled>
+    <ImgStyled
+      alt="Заголовок"
+    />
+  </ImageWrapperStyled>
+</ContainerStyled>
+`;

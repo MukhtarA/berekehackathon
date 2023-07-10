@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Autocomplete /> Snapshot 1`] = `
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-2 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border-radius: 4px;
+  border: solid 1px;
+  width: 100%;
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-right: calc(26px + 20px);
+  -webkit-transition: 0.17s ease box-shadow;
+  transition: 0.17s ease box-shadow;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  min-height: calc(64px + 2px);
+}
+
+.emotion-2::after {
+  content: '';
+  min-height: calc(64px - 2*12px);
+  font-size: 0;
+}
+
+.emotion-2:hover {
+  border: solid 1px;
+}
+
+.emotion-2:active {
+  border: solid 1px;
+}
+
+body:not(.pointer-events) .emotion-2:focus {
+  -webkit-transition: 0.17s ease;
+  transition: 0.17s ease;
+  box-shadow: inset 0px 0px 0px 1px;
+}
+
+.emotion-4 {
+  letter-spacing: -0.3px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.emotion-6 {
+  position: absolute;
+  right: 9px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.emotion-8 {
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.emotion-8 svg {
+  display: block;
+}
+
+<ValueSelect
+  id="example-id"
+  mode="select"
+  onChange={[MockFunction]}
+  size="lg"
+  translations={
+    Object {
+      "placeholder": "placeholderExample",
+    }
+  }
+>
+  <OnClickOutside(Perimeter)
+    disableOnClickOutside={true}
+    eventTypes={
+      Array [
+        "mousedown",
+        "touchstart",
+      ]
+    }
+    excludeScrollbar={false}
+    onClickOutside={[Function]}
+    outsideClickIgnoreClass="ignore-react-onclickoutside"
+    preventDefault={false}
+    stopPropagation={false}
+  >
+    <Perimeter
+      disableOnClickOutside={[Function]}
+      enableOnClickOutside={[Function]}
+      eventTypes={
+        Array [
+          "mousedown",
+          "touchstart",
+        ]
+      }
+      onClickOutside={[Function]}
+      outsideClickIgnoreClass="ignore-react-onclickoutside"
+      preventDefault={false}
+      stopPropagation={false}
+    >
+      <WrapperStyled
+        id="example-id-wrapper"
+      >
+        <div
+          className="emotion-0 emotion-1"
+          id="example-id-wrapper"
+        >
+          <TargetStyled
+            aria-haspopup="listbox"
+            aria-label=""
+            aria-labelledby="example-id"
+            disabled={false}
+            id="example-id"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            open={null}
+            readonly={false}
+            size="lg"
+            type="button"
+          >
+            <button
+              aria-haspopup="listbox"
+              aria-label=""
+              aria-labelledby="example-id"
+              className="emotion-2 emotion-3"
+              disabled={false}
+              id="example-id"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              open={null}
+              size="lg"
+              type="button"
+            >
+              <ItemNotChosenStyled
+                fontWeight="medium"
+                size="lg"
+              >
+                <p
+                  className="emotion-4 emotion-5"
+                  fontWeight="medium"
+                  size="lg"
+                >
+                  placeholderExample
+                </p>
+              </ItemNotChosenStyled>
+              <ArrowStyled
+                open={null}
+              >
+                <div
+                  className="emotion-6 emotion-7"
+                  open={null}
+                >
+                  <Icon
+                    colorScheme="primary"
+                    icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>"
+                  >
+                    <WrapperStyled
+                      colorScheme="primary"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>",
+                        }
+                      }
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="emotion-8 emotion-9"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path d=\\"M15.293 9.883c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414L12 16.004l-4.707-4.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L12 13.176l3.293-3.293z\\"/></svg>",
+                          }
+                        }
+                        onClick={[Function]}
+                      />
+                    </WrapperStyled>
+                  </Icon>
+                </div>
+              </ArrowStyled>
+            </button>
+          </TargetStyled>
+        </div>
+      </WrapperStyled>
+    </Perimeter>
+  </OnClickOutside(Perimeter)>
+</ValueSelect>
+`;

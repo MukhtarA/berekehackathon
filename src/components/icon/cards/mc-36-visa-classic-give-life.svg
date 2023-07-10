@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="aeypda0e5b" x1="2.185%" x2="84.975%" y1="25.802%" y2="75.51%">
+            <stop offset="0%" stop-color="#BFCFC6"/>
+            <stop offset="37.481%" stop-color="#E8E5CD"/>
+            <stop offset="73.334%" stop-color="#65ABC2"/>
+            <stop offset="100%" stop-color="#82AFBF"/>
+        </linearGradient>
+        <linearGradient id="wtg3yio4zd" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".3"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".01"/>
+        </linearGradient>
+        <radialGradient id="niiu9ctmbc" cx="50%" cy="50%" r="48.967%" fx="50%" fy="50%" gradientTransform="matrix(-.53285 .66595 -.33064 -.51853 .932 .426)">
+            <stop offset="0%" stop-color="#F19D6D"/>
+            <stop offset="100%" stop-color="#F6DE44" stop-opacity="0"/>
+        </radialGradient>
+        <rect id="orn5q94via" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="2h0p73m6he" fill="#fff">
+            <use xlink:href="#orn5q94via"/>
+        </mask>
+        <use fill="url(#aeypda0e5b)" xlink:href="#orn5q94via"/>
+        <use fill="url(#niiu9ctmbc)" xlink:href="#orn5q94via"/>
+        <path fill="url(#wtg3yio4zd)" d="M4 8L28 8 4 28z" mask="url(#2h0p73m6he)"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#2h0p73m6he)"/>
+        <rect width="10" height="5" x="19" y="20" fill="#3A63C6" fill-rule="nonzero" mask="url(#2h0p73m6he)" rx="2.5"/>
+    </g>
+</svg>

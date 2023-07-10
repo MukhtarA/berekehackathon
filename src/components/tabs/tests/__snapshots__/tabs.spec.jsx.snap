@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> snapshot 1`] = `
+<TabsStyled
+  aria-live="polite"
+>
+  <Header
+    parentId="tab-wrapper-1"
+  >
+    <div
+      role="tablist"
+    >
+      <ForwardRef
+        forceOpened={true}
+        id="tabs-2"
+        key=".0"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        parentId="tab-wrapper-1"
+        size="lg"
+        title="0"
+      >
+        0
+      </ForwardRef>
+      <ForwardRef
+        forceOpened={false}
+        id="tabs-2"
+        key=".1"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        parentId="tab-wrapper-1"
+        size="lg"
+        title="1"
+      >
+        1
+      </ForwardRef>
+    </div>
+  </Header>
+  <TabsContentSectionStyled
+    aria-labelledby="tab-tabs-2"
+    id="panel-tabs-2"
+    key="0"
+    role="tabpanel"
+    tabIndex="0"
+  >
+    0
+  </TabsContentSectionStyled>
+</TabsStyled>
+`;

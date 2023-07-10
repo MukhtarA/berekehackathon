@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelectedOptions Snapshot 1`] = `
+<MultiSelectedListStyled>
+  <MultiSelectedItemStyled
+    key="Value 0"
+    size="lg"
+  >
+    <MultiSelectedTitleStyled
+      fontWeight="medium"
+      size="lg"
+    >
+      Title 0
+    </MultiSelectedTitleStyled>
+    <MultiSelectedButtonStyled
+      aria-label="Закрыть"
+      onClick={[Function]}
+      role="button"
+      size="lg"
+      tabIndex={0}
+    >
+      <MultiSelectedIconStyled
+        height={24}
+        icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path fill-rule=\\"evenodd\\" d=\\"M15.293 7.293L12 10.585 8.707 7.293c-.36-.36-.928-.388-1.32-.083l-.094.083c-.39.39-.39 1.024 0 1.414L10.585 12l-3.292 3.293c-.39.39-.39 1.024 0 1.414.39.39 1.024.39 1.414 0L12 13.415l3.293 3.292c.36.36.928.388 1.32.083l.094-.083c.39-.39.39-1.024 0-1.414L13.415 12l3.292-3.293c.39-.39.39-1.024 0-1.414-.39-.39-1.024-.39-1.414 0z\\"/></svg>"
+        width={10}
+      />
+    </MultiSelectedButtonStyled>
+  </MultiSelectedItemStyled>
+  <MultiSelectedItemStyled
+    key="Value 1"
+    size="lg"
+  >
+    <MultiSelectedTitleStyled
+      fontWeight="medium"
+      size="lg"
+    >
+      Title 1
+    </MultiSelectedTitleStyled>
+    <MultiSelectedButtonStyled
+      aria-label="Закрыть"
+      onClick={[Function]}
+      role="button"
+      size="lg"
+      tabIndex={0}
+    >
+      <MultiSelectedIconStyled
+        height={24}
+        icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path fill-rule=\\"evenodd\\" d=\\"M15.293 7.293L12 10.585 8.707 7.293c-.36-.36-.928-.388-1.32-.083l-.094.083c-.39.39-.39 1.024 0 1.414L10.585 12l-3.292 3.293c-.39.39-.39 1.024 0 1.414.39.39 1.024.39 1.414 0L12 13.415l3.293 3.292c.36.36.928.388 1.32.083l.094-.083c.39-.39.39-1.024 0-1.414L13.415 12l3.292-3.293c.39-.39.39-1.024 0-1.414-.39-.39-1.024-.39-1.414 0z\\"/></svg>"
+        width={10}
+      />
+    </MultiSelectedButtonStyled>
+  </MultiSelectedItemStyled>
+  <MultiSelectedItemStyled
+    key="Value 2"
+    size="lg"
+  >
+    <MultiSelectedTitleStyled
+      fontWeight="medium"
+      size="lg"
+    >
+      Title 2
+    </MultiSelectedTitleStyled>
+    <MultiSelectedButtonStyled
+      aria-label="Закрыть"
+      onClick={[Function]}
+      role="button"
+      size="lg"
+      tabIndex={0}
+    >
+      <MultiSelectedIconStyled
+        height={24}
+        icon="<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">    <path fill-rule=\\"evenodd\\" d=\\"M15.293 7.293L12 10.585 8.707 7.293c-.36-.36-.928-.388-1.32-.083l-.094.083c-.39.39-.39 1.024 0 1.414L10.585 12l-3.292 3.293c-.39.39-.39 1.024 0 1.414.39.39 1.024.39 1.414 0L12 13.415l3.293 3.292c.36.36.928.388 1.32.083l.094-.083c.39-.39.39-1.024 0-1.414L13.415 12l3.292-3.293c.39-.39.39-1.024 0-1.414-.39-.39-1.024-.39-1.414 0z\\"/></svg>"
+        width={10}
+      />
+    </MultiSelectedButtonStyled>
+  </MultiSelectedItemStyled>
+</MultiSelectedListStyled>
+`;

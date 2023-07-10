@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="0x136yujwb" x1="29.968%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#19B7EB"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="klmcisvhpd" x1="25.396%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#99CA1A"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="r3br6jojge" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#C442EE"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="ikpgu405mf" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#C442EE"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="mvurtxu6sg" x1="29.968%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#1967EB"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="ms3590yuth" x1="25.396%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#CA1A91"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="up68tzlvyi" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#14D133"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="8txakny0xj" x1="29.968%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#1967EB"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <linearGradient id="mvahhdznzk" x1="21.946%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#CFDE18"/>
+            <stop offset="100%" stop-color="#000014"/>
+        </linearGradient>
+        <rect id="dqgz5bqt5a" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="sf7dzekrcc" fill="#fff">
+            <use xlink:href="#dqgz5bqt5a"/>
+        </mask>
+        <use fill="#000014" xlink:href="#dqgz5bqt5a"/>
+        <rect width="13" height="5" x="9" y="24" fill="url(#0x136yujwb)" mask="url(#sf7dzekrcc)" rx="2"/>
+        <path fill="url(#klmcisvhpd)" d="M14 20h10c1.105 0 2 .895 2 2v1c0 1.105-.895 2-2 2H14c-1.105 0-2-.895-2-2v-1c0-1.105.895-2 2-2z" mask="url(#sf7dzekrcc)"/>
+        <rect width="15" height="5" x="19" y="23" fill="url(#r3br6jojge)" mask="url(#sf7dzekrcc)" rx="2"/>
+        <path fill="url(#ikpgu405mf)" d="M19 8h10c1.105 0 2 .895 2 2v1c0 1.105-.895 2-2 2H19c-1.105 0-2-.895-2-2v-1c0-1.105.895-2 2-2z" mask="url(#sf7dzekrcc)"/>
+        <path fill="url(#mvurtxu6sg)" d="M18 17h5c1.105 0 2 .895 2 2v1c0 1.105-.895 2-2 2h-5c-1.105 0-2-.895-2-2v-1c0-1.105.895-2 2-2z" mask="url(#sf7dzekrcc)"/>
+        <rect width="15" height="5" x="19" y="15" fill="url(#ms3590yuth)" mask="url(#sf7dzekrcc)" rx="2"/>
+        <rect width="12" height="5" x="22" y="19" fill="url(#up68tzlvyi)" mask="url(#sf7dzekrcc)" rx="2"/>
+        <rect width="13" height="5" x="21" y="11" fill="url(#8txakny0xj)" mask="url(#sf7dzekrcc)" rx="2"/>
+        <rect width="10" height="5" x="24" y="7" fill="url(#mvahhdznzk)" mask="url(#sf7dzekrcc)" rx="2"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#sf7dzekrcc)"/>
+    </g>
+</svg>

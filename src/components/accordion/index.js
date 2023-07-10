@@ -1,0 +1,5 @@
+export { Accordion } from './accordion'
+export { AccordionItem } from './accordion-item'
+export { AccordionContent } from './accordion-content'
+export { AccordionHeading } from './accordion-heading'
+export { AccordionSummary } from './accordion-summary'

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <circle id="h8s0ci7mka" cx="18" cy="18" r="18"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="ne0315f7xb" fill="#fff">
+            <use xlink:href="#h8s0ci7mka"/>
+        </mask>
+        <use fill="#338AF3" fill-rule="nonzero" xlink:href="#h8s0ci7mka"/>
+        <g fill-rule="nonzero" mask="url(#ne0315f7xb)">
+            <circle cx="18" cy="18" r="18" fill="#338AF3"/>
+            <path fill="#0052B4" d="M18 8.445v5.906l-6.26-5.906H18zm-8.6 9.146h5.288L9.4 10.728l-.783 5.33.783 1.533z"/>
+            <path fill="#F0F0F0" d="M18 9.206L17.997.068C8.057.07 0 7.91 0 17.582h9.4v-5.145l5.288 5.145h3.272l.048-.047V14.35L12.7 9.206H18z"/>
+            <path fill="#D80027" d="M9.106 2.353C6.288 3.915 3.953 6.187 2.347 8.929v8.653h4.696V6.922H18v-4.57H9.106zM18 15.428l-6.395-6.222H9.4l8.6 8.376v-2.155.001z"/>
+            <path fill="#F3F3F3" d="M20.348 11.49v6.092c0 4.08 5.478 5.33 5.478 5.33s5.478-1.25 5.478-5.33V11.49l-5.478-1.523-5.478 1.523z"/>
+            <path fill="#D80027" d="M31.304 11.49V9.207H20.348v2.285h4.696v4.569h-4.696v1.523h4.696v5.096l.783.234s.3-.071.783-.234v-5.097h4.696v-1.523H26.61V11.49h4.696-.002z"/>
+        </g>
+    </g>
+</svg>

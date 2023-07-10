@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <circle id="atzwdsaota" cx="18" cy="18" r="18"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="q3h4xhjm1b" fill="#fff">
+            <use xlink:href="#atzwdsaota"/>
+        </mask>
+        <use fill="#D8D8D8" xlink:href="#atzwdsaota"/>
+        <g mask="url(#q3h4xhjm1b)">
+            <g fill-rule="nonzero">
+                <path fill="#0053A5" d="M0 0H55.059V36H0z" transform="translate(-10)"/>
+                <g fill="#FFCE00">
+                    <path d="M16.941 0H27.528999999999996V36H16.941z" transform="translate(-10)"/>
+                    <path d="M0 12.706H55.059V23.293999999999997H0z" transform="translate(-10)"/>
+                </g>
+                <g fill="#D21034">
+                    <path d="M20.118 0H24.352999999999998V36H20.118z" transform="translate(-10)"/>
+                    <path d="M0 15.882H55.059V20.117H0z" transform="translate(-10)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

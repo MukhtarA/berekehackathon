@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <radialGradient id="s0jgj2fkyb" cx="4.428%" cy="5.476%" r="170.561%" fx="4.428%" fy="5.476%" gradientTransform="matrix(.56034 .62016 -.44297 .78448 .044 -.016)">
+            <stop offset="0%" stop-color="#00BFA5"/>
+            <stop offset="40.071%" stop-color="#00CA54"/>
+            <stop offset="100%" stop-color="#007D9C"/>
+        </radialGradient>
+        <rect id="rbwfnwv6ka" width="28" height="20" x="4" y="8" rx="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="on4e2bifqc" fill="#fff">
+            <use xlink:href="#rbwfnwv6ka"/>
+        </mask>
+        <use fill="url(#s0jgj2fkyb)" xlink:href="#rbwfnwv6ka"/>
+        <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#on4e2bifqc)"/>
+        <rect width="10" height="5" x="19" y="20" fill="#3A63C6" fill-rule="nonzero" mask="url(#on4e2bifqc)" rx="2.5"/>
+        <path fill="#FFF" fill-opacity=".3" fill-rule="nonzero" d="M4 15.229L11.02 19.118 32 7 32 11.877 11.005 24 4 20.106z" mask="url(#on4e2bifqc)"/>
+    </g>
+</svg>
