@@ -4,8 +4,8 @@ import { useHistory, useLocation } from 'react-router-dom'
 import { Trans, useTranslation } from 'react-i18next'
 import axios from 'axios'
 import _ from 'lodash'
-import { LabeledTextFieldMasked } from '@sbol/design-system/core/text-field/masked'
-import { ButtonPrimary } from '@sbol/design-system/core/button'
+import { LabeledTextFieldMasked } from '../text-field'
+import { ButtonPrimary } from '../button'
 
 import { OtpWrapper } from '../otp'
 import {

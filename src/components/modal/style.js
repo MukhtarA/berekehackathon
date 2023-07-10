@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import { css } from '@emotion/react'
-import { black } from '@sbol/design-system/core/styles/colors.config.style'
+import { black } from '../styles/colors.config.style'
 
 export const ModalMaskStyled = styled.div`
     position: fixed;

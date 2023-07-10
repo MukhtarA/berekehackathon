@@ -2,7 +2,7 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import _ from 'lodash'
-import { Body1 } from '@sbol/design-system/core/typography'
+import { Body1 } from '../typography'
 
 import { Grid, Cell } from '../grid'
 import { Footer } from '../page-layout/footer'

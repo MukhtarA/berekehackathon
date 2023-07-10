@@ -2,8 +2,8 @@ import styled from '@emotion/styled'
 import { css } from '@emotion/react'
 import { NavLink } from 'react-router-dom'
 
-import { mdShadow } from '@sbol/design-system/core/styles/shadows.config.style'
-import { Typography } from '@sbol/design-system/core/typography'
+import { mdShadow } from '../../styles/shadows.config.style'
+import { Typography } from '../../typography'
 
 export const BottomTabsStyled = styled.nav(
     ({ theme, fullWidth }) => css`

@@ -3,7 +3,7 @@
 import axios from 'axios'
 import _ from 'lodash'
 
-import { MobileActions } from '@web_sbol/shared/src/utils/mobile-actions'
+import { MobileActions } from '../../utils/mobile-actions'
 
 export const authUrl = `${process.env.CORS_PROXY_URL || ''}${process.env.SBERID_URL}`
 

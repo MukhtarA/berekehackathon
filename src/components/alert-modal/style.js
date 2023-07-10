@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Typography } from '@sbol/design-system/core/typography'
+import { Typography } from '../typography'
 
 export const AlertWrapperStyled = styled.div`
     position: absolute;

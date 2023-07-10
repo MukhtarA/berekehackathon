@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { mediaSm } from '@web_sbol/shared/src/utils/media.config.style'
+import { mediaSm } from '../../utils/media.config.style'
 
 export const CarouselStyled = styled.div`
     overflow: hidden;

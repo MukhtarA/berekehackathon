@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@emotion/react'
 import {useMobileConfigs} from './utils/mobile-actions'
-import { ButtonPrimary, IconLoader, Typography } from "./components";
+import { ButtonPrimary,  Typography } from "./components";
 import themeColors from './components/styles/theme-colors'
 
 const MODES = {

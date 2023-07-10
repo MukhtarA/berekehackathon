@@ -2,12 +2,7 @@ import axios from 'axios'
 import createAuthRefreshInterceptor from 'axios-auth-refresh'
 import _ from 'lodash'
 
-import {
-    getAccessToken,
-    getAntiFraud,
-    getLanguage,
-    refreshAuthLogic
-} from '@web_sbol/shared/src/components/auth/helpers'
+import { getAccessToken, getAntiFraud, getLanguage, refreshAuthLogic } from './components/auth/helpers'
 
 const instance = axios.create({
     baseURL: `${process.env.SBOL_BACKEND_URL}`

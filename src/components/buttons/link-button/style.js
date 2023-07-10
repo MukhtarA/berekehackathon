@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { ButtonSecondary } from '@sbol/design-system/core/button'
+import { ButtonSecondary } from '../../button'
 
 export const ButtonSecondaryStyled = styled(ButtonSecondary)`
     border: none;

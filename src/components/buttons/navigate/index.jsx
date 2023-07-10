@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ButtonPrimary, ButtonSecondary, ButtonTertiary } from '@sbol/design-system/core/button'
+import { ButtonPrimary, ButtonSecondary, ButtonTertiary } from '../../button'
 
 import { LinkStyled } from './style'
 import { LinkButton } from '../link-button'

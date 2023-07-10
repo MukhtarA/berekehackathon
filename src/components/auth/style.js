@@ -5,14 +5,14 @@ import {
     Headline3,
     Caption,
     Body2
-} from '@sbol/design-system/core/typography'
-import { Link } from '@sbol/design-system/core/link'
-import { hex2rgba } from '@sbol/design-system/core/styles/colors.config.style'
-import { lgShadow } from '@sbol/design-system/core/styles/shadows.config.style'
-import { ButtonPrimary } from '@sbol/design-system/core/button/button.primary'
+} from '../typography'
+import { Link } from '../link'
+import { hex2rgba } from '../styles/colors.config.style'
+import { lgShadow } from '../styles/shadows.config.style'
+import { ButtonPrimary } from '../button'
 
-import { NavigateTertiary } from '@web_sbol/shared/src/components/buttons/navigate'
-import { mediaSm, mediaMd, mediaLg } from '@web_sbol/shared/src/utils/media.config.style'
+import {NavigateTertiary} from '../buttons/navigate'
+import { mediaSm, mediaMd, mediaLg } from '../../utils/media.config.style'
 
 import background from './assets/background.jpg'
 

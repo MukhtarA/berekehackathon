@@ -1,6 +1,6 @@
 import React, { memo, useRef, useLayoutEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { TextField } from '@sbol/design-system/core/text-field'
+import { TextField } from '../text-field'
 
 import { usePrevious } from '../../utils'
 import { SingleInputStyled } from './style'

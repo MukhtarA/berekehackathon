@@ -1,10 +1,10 @@
 import styled from '@emotion/styled'
 import { css } from '@emotion/react'
 import { NavLink, Link } from 'react-router-dom'
-import { Menu, MenuItem } from '@sbol/design-system/core/menu'
-import { IconLoader } from '@sbol/design-system/core/icon'
+import { Menu, MenuItem } from '../../menu'
+import { IconLoader } from '../../icon'
 
-import { mediaSm, mediaMd } from '@web_sbol/shared/src/utils/media.config.style'
+import  { mediaSm, mediaMd } from '../../../utils/media.config.style'
 
 export const HeaderStyled = styled.header`
     display: flex;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useImperativeHandle, forwardRef } from 'react'
 import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
-import { Body2, Headline5 } from '@sbol/design-system/core/typography'
+import { Body2, Headline5 } from '../typography'
 
 export const Timer = forwardRef(
     ({ initialMinute = 0, initialSeconds = 0, children, isSimpleTimer, handleTimeIsOver }, ref) => {

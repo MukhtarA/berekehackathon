@@ -1,8 +1,8 @@
 import styled from '@emotion/styled'
-import { Typography } from '@sbol/design-system/core/typography'
-import { coolGray3, coolGray7, white } from '@sbol/design-system/core/styles/colors.config.style'
+import { Typography } from '../../typography'
+import { coolGray3, coolGray7, white } from '../../styles/colors.config.style'
 
-import { mediaSm, mediaMd } from '@web_sbol/shared/src/utils/media.config.style'
+import { mediaSm, mediaMd } from '../../../utils/media.config.style'
 
 export const FooterStyled = styled.footer`
     display: flex;

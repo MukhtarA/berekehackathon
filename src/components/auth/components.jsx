@@ -3,7 +3,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Trans, useTranslation } from 'react-i18next'
-import { Headline4 } from '@sbol/design-system/core/typography'
+import { Headline4 } from '../typography'
 
 import {
     BackLinkStyled,

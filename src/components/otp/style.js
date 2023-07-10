@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Link } from '@sbol/design-system/core/link'
+import { Link } from '../link'
 
 export const SingleInputStyled = styled.div`
     width: 56px;
