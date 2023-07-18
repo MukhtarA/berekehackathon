@@ -5,6 +5,7 @@ import { ButtonPrimary,  IconLoader,  Typography } from "./components";
 import themeColors from './components/styles/theme-colors'
 import * as common from './assets/common'
 import DemoScreen from './features/demo-screen';
+import ComponentsScreen from './features/components-screen';
 
 const MODES = {
     DARK: 'DARK',
@@ -23,9 +24,9 @@ function App() {
       <Router baseName='/'>
       <Switch>
         <Route exact path='/' component={DemoScreen} />
+        <Route exact path='/components' component={ComponentsScreen} />
       </Switch>
       </Router>
-     {/* <ButtonPrimary title={'someTitle'} /> */}
     </div>
     </ThemeProvider>
   );
