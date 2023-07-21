@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
     <defs>
         <radialGradient id="1lxk94wvhb" cx="4.428%" cy="5.476%" r="170.561%" fx="4.428%" fy="5.476%" gradientTransform="matrix(.56034 .62016 -.44297 .78448 .044 -.016)">
             <stop offset="0%" stop-color="#00BFA5"/>
@@ -9,9 +9,9 @@
     </defs>
     <g fill="none" fill-rule="evenodd">
         <mask id="s8oiczjrcc" fill="#fff">
-            <use xlink:href="#zjjqqhb2ja"/>
+            <use xlinkHref="#zjjqqhb2ja"/>
         </mask>
-        <use fill="url(#1lxk94wvhb)" xlink:href="#zjjqqhb2ja"/>
+        <use fill="url(#1lxk94wvhb)" xlinkHref="#zjjqqhb2ja"/>
         <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#s8oiczjrcc)"/>
         <g fill-rule="nonzero" mask="url(#s8oiczjrcc)">
             <g transform="translate(19 20)">

@@ -1,4 +1,3 @@
-/* eslint-disable babel/camelcase */
 /* eslint-disable no-undefined */
 import { useState, useEffect, useRef } from 'react'
 

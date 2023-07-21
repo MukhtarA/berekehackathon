@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import PropTypes from 'prop-types'
 import { useField } from 'formik'
 import { isEmpty } from 'lodash'
-import { LabeledTextField } from '@sbol/design-system/core/text-field'
+import { LabeledTextField } from './text-field'
 
 import ViewLabel from './view-label'
 import { formatMoney } from '../../utils'

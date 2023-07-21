@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-bind,react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import _ from 'lodash'
@@ -23,11 +22,9 @@ const LanguageMenu = ({ isWhite }) => {
 
     useEffect(() => {
         findSetSelected(selected)
-        i18n.changeLanguage(selected)
-            // eslint-disable-next-line promise/prefer-await-to-then
-            .then(() => setLanguagesList(_.filter(languages, (item) => item.code !== selected)))
-            // eslint-disable-next-line no-console
-            .catch((e) => console.log(e))
+        // i18n.changeLanguage(selected)
+        //     .then(() => setLanguagesList(_.filter(languages, (item) => item.code !== selected)))
+        //     .catch((e) => console.log(e))
     }, [])
 
     const handleSelect = (key) => {
@@ -35,11 +32,10 @@ const LanguageMenu = ({ isWhite }) => {
         setLanguagesList(_.filter(languages, (item) => item.code !== key))
         localStorage.setItem('language', key)
         i18n.changeLanguage(key)
-            // eslint-disable-next-line promise/prefer-await-to-then,promise/always-return
             .then(() => {
                 window.location.reload()
             })
-            // eslint-disable-next-line no-console
+   
             .catch((e) => console.log(e))
     }
 

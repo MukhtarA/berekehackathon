@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { useField } from 'formik'
-import { CurrencySelect } from '@sbol/design-system/core/text-field'
-import { Caption, Typography } from '@sbol/design-system/core/typography'
+import { CurrencySelect } from '../text-field'
+import { Caption, Typography } from '../typography'
 
 import MoneyInput from './money-input'
 import { CommissionStyled } from './style'

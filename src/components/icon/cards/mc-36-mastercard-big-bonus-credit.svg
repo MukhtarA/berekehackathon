@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
     <defs>
         <linearGradient id="lyu0t912eb" x1="0%" x2="100%" y1="24.49%" y2="75.51%">
             <stop offset="0%"/>
@@ -9,9 +9,9 @@
     <g fill="none" fill-rule="evenodd">
         <path d="M0 0H36V36H0z"/>
         <mask id="xnj5ikj8cc" fill="#fff">
-            <use xlink:href="#mfkhinfwta"/>
+            <use xlinkHref="#mfkhinfwta"/>
         </mask>
-        <use fill="url(#lyu0t912eb)" xlink:href="#mfkhinfwta"/>
+        <use fill="url(#lyu0t912eb)" xlinkHref="#mfkhinfwta"/>
         <path fill="#FFF" fill-opacity=".3" fill-rule="nonzero" d="M4 15.229L11.02 19.118 32 7 32 11.877 11.005 24 4 20.106z" mask="url(#xnj5ikj8cc)"/>
         <g fill-rule="nonzero" mask="url(#xnj5ikj8cc)">
             <g transform="translate(19 20)">

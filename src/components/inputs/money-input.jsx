@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { useField } from 'formik'
 import { useTranslation } from 'react-i18next'
 
-import { LabeledTextFieldMoney } from '@sbol/design-system/core/text-field/money'
-import { Currency } from '@sbol/design-system/core/currency'
+import { LabeledTextFieldMoney } from './text-field/money'
+import { Currency } from './currency'
 
 import { formatMoneyNoDigits } from '@web_sbol/shared/src/utils'
 import ViewLabel from './view-label'

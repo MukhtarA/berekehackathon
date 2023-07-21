@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { useField } from 'formik'
 import { useTranslation } from 'react-i18next'
 import _ from 'lodash'
-import { LabeledAutocomplete } from '@sbol/design-system/core/autocomplete'
-import { ValueOption, ValueSubheader } from '@sbol/design-system/core/value-select'
+import { LabeledAutocomplete } from './autocomplete'
+import { ValueOption, ValueSubheader } from './value-select'
 
 import ViewLabel from './view-label'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Divider } from '@sbol/design-system/core/divider'
+import { Divider } from '../divider'
 
 import { DividerStyled } from './style'
 

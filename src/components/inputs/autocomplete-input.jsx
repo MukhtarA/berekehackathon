@@ -3,27 +3,27 @@ import PropTypes from 'prop-types'
 import { List } from 'react-virtualized'
 import { noop, uniqueId, find, last } from 'lodash'
 import { useTranslation } from 'react-i18next'
-import { TextField } from '@sbol/design-system/core/text-field/text-field'
-import { keyCodes } from '@sbol/design-system/core/utils/dropdown-utils'
-import { preventHandler, disableHandler } from '@sbol/design-system/core/utils/handlers'
-import { Perimeter } from '@sbol/design-system/core/perimeter'
-import { ContainedLoader } from '@sbol/design-system/core/loader/contained-loader'
-import { currentIndex, nextValue, prevValue } from '@sbol/design-system/core/value-select/utils'
-import { ValueOption } from '@sbol/design-system/core/value-select'
-import { withLabel } from '@sbol/design-system/core/labeled'
-import { dynamicHeight } from '@sbol/design-system/core/styles/dynamic-styles'
+import { TextField } from '../text-field/text-field'
+import { keyCodes } from '../utils/dropdown-utils'
+import { preventHandler, disableHandler } from '../utils/handlers'
+import { Perimeter } from '../perimeter'
+import { ContainedLoader } from '../loader/contained-loader'
+import { currentIndex, nextValue, prevValue } from '../value-select/utils'
+import { ValueOption } from './value-select'
+import { withLabel } from '../labeled'
+import { dynamicHeight } from '../styles/dynamic-styles'
 import {
     ContentsStyled,
     ContentsViewStyled,
     ItemStyled,
     ITEMS_IN_LIST
-} from '@sbol/design-system/core/value-select/value-select.dropdown.style'
+} from './value-select/value-select.dropdown.style'
 import {
     WrapperStyled,
     TargetStyled,
     NoMatchesStyled,
     LoaderWrapperStyled
-} from '@sbol/design-system/core/autocomplete/autocomplete.style'
+} from './autocomplete/autocomplete.style'
 
 export const mapTypographySize = {
     lg: 'md',

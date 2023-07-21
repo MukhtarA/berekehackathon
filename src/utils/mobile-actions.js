@@ -1,4 +1,3 @@
-/* eslint-disable babel/camelcase */
 import { useState, useEffect } from 'react'
 import { showPdfOnWindow } from '../components/screen-layout/mobile-fallbacks/helpers'
 

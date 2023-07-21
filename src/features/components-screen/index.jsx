@@ -17,12 +17,16 @@ import { Accordion, Typography, AccordionSummary,
     TextField,
     SelectionGroup,
     Radio,
+    Tabs,
+    Tab,
+
 } from '../../components'
 import BottomTabs from '../../components/screen-layout/bottom-tabs'
 import { Form, Formik } from 'formik'
 import {IconLoader} from '../../components/icon/icon-loader'
 import _ from 'lodash'
-
+import { Switch } from '../../components/switch'
+import Skeleton from '../../components/skeleton'
 
 export const MENU = [
     {
@@ -103,7 +107,14 @@ const ComponentsScreen = () => {
                         >
                           Radio2
                         </Radio>
-                    </SelectionGroup>            
+                    </SelectionGroup>     
+                        <Switch checked onChange={() => console.log('OK')} id="1"/>
+                        <Tabs>
+                        <Tab title="BerkeBank"/>
+                        <Tab title="ErekeBank"/>
+                        </Tabs>
+                        <Skeleton width="100px" height="100px" marginTop="50px" borderRadius="100px" isPulse />
+                
                     <ScreenLayout.BottomTabs fullWidth>
                     <ScreenLayout.BottomTab
                     to="/"
@@ -125,6 +136,7 @@ const ComponentsScreen = () => {
                     title={'Title12'}
                 />
                          </ScreenLayout.BottomTabs>
+            
         </ScreenLayout.Content>
         </ScreenLayout>
   )

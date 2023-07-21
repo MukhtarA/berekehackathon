@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
     <defs>
         <path id="41ltxui3ra" d="M0 0H36V36H0z"/>
     </defs>
     <g fill="none" fill-rule="evenodd">
         <mask id="rzd7gpaqhb" fill="#fff">
-            <use xlink:href="#41ltxui3ra"/>
+            <use xlinkHref="#41ltxui3ra"/>
         </mask>
         <path fill="#000" fill-rule="nonzero" d="M35.93 17.965c0-.794-.052-1.576-.152-2.343H15.622L5.262 5.262c-7.016 7.016-7.016 18.39 0 25.406l10.36-10.36h20.156c.1-.767.152-1.549.152-2.343z" mask="url(#rzd7gpaqhb)"/>
         <g fill="#F0F0F0" fill-rule="nonzero" mask="url(#rzd7gpaqhb)">

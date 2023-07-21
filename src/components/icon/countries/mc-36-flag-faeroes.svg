@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
     <defs>
         <circle id="59okpimrca" cx="18" cy="18" r="18"/>
     </defs>
     <g fill="none" fill-rule="evenodd">
         <mask id="a6qenpzf4b" fill="#fff">
-            <use xlink:href="#59okpimrca"/>
+            <use xlinkHref="#59okpimrca"/>
         </mask>
-        <use fill="#D8D8D8" xlink:href="#59okpimrca"/>
+        <use fill="#D8D8D8" xlinkHref="#59okpimrca"/>
         <g mask="url(#a6qenpzf4b)">
             <g fill-rule="nonzero">
                 <path fill="#F0F0F0" d="M0 0H49.5V36H0z" transform="translate(-7)"/>

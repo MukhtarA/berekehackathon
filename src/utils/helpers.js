@@ -23,7 +23,6 @@ export const getRelativeLocale = () => {
             ...enLocale,
             formatRelative: (token) =>
                 ({
-                    // eslint-disable-next-line sonarjs/no-duplicate-string
                     lastWeek: 'dd MMMM yyyy',
                     yesterday: "'yesterday' • HH:mm",
                     today: "'today' • HH:mm",

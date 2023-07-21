@@ -2,7 +2,7 @@ import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { useField } from 'formik'
 import { createMask } from 'imask'
-import { LabeledTextFieldMasked } from '@sbol/design-system/core/text-field/masked'
+import { LabeledTextFieldMasked } from './text-field/masked'
 
 import ViewLabel from './view-label'
 

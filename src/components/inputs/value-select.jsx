@@ -7,8 +7,8 @@ import {
     LabeledValueSelect,
     ValueOption,
     ValueSubheader
-} from '@sbol/design-system/core/value-select'
-import { Caption } from '@sbol/design-system/core/typography'
+} from './value-select'
+import { Caption } from './typography'
 
 import ViewLabel from './view-label'
 

@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { useField } from 'formik'
-import Checkbox from '@sbol/design-system/core/selection/checkbox/checkbox'
-import { Caption } from '@sbol/design-system/core/typography'
+import Checkbox from './selection/checkbox/checkbox'
+import { Caption } from './typography'
 
 export const CheckboxInputField = ({ children, ...props }) => {
     const [field, meta, helpers] = useField(props)

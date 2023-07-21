@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Typography } from '@sbol/design-system/core/typography'
+import { Typography } from '../typography'
 
 import { ViewLabelStyled, LabelStyled } from './style'
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
     <defs>
         <linearGradient id="egdzkg62ac" x1="50%" x2="50%" y1="0%" y2="100%">
             <stop offset="0%" stop-color="#FFF" stop-opacity=".3"/>
@@ -8,9 +8,9 @@
     </defs>
     <g fill="none" fill-rule="evenodd">
         <mask id="apmveavm5b" fill="#fff">
-            <use xlink:href="#o37dbq1pva"/>
+            <use xlinkHref="#o37dbq1pva"/>
         </mask>
-        <use fill="#0083D7" xlink:href="#o37dbq1pva"/>
+        <use fill="#0083D7" xlinkHref="#o37dbq1pva"/>
         <path fill="#0083D7" d="M9.482 15.494L15.102 15.494 15.996 16.438 16.941 15.494 23.918 15.494 24.668 15.973 25.032 15.494 26.966 15.494 25.818 17.76 26.966 19.751 25.01 19.765 24.603 19.372 24.068 19.74 11.541 19.694 10.967 19.4 10.207 19.689 8.267 19.682 9.482 15.494 9.482 15.494z" mask="url(#apmveavm5b)"/>
         <path fill="#FFF" d="M5.59 20.928h3.352l.415-1.036h.95l.415 1.036h13.926l.933-1.01.873 1.01 3.94.01-2.808-3.243 2.807-3.269h-3.879l-.907.993-.846-.993h-8.346l-.717 1.679-.734-1.679-3.101.032v1.258l-.703-1.29H8.39l-2.8 6.502zm5.08-5.579l1.858 4.41v-4.41h1.788l1.434 3.163 1.322-3.163h1.78v4.666h-1.08l-.01-3.656-1.58 3.656h-.968l-1.59-3.656v3.656h-2.228l-.423-1.046H8.692l-.423 1.046H7.076l1.961-4.666h1.633zm13.58 0l1.349 1.529 1.39-1.529h1.348l-2.047 2.346 2.047 2.32H26.93l-1.348-1.547-1.4 1.547h-4.336v-4.666h4.406zM9.08 18.003h1.504l-.752-1.863-.751 1.863zm11.853-.835h2.402v.949h-2.402v.931h2.696l1.253-1.37-1.201-1.362h-2.748v.852z" mask="url(#apmveavm5b)"/>
         <path fill="url(#egdzkg62ac)" d="M4 8L28 8 4 28z" mask="url(#apmveavm5b)"/>

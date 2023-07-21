@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
     <defs>
         <linearGradient id="2dtqk917fb" x1=".505%" x2="100%" y1="75.252%" y2="24.49%">
             <stop offset="0%" stop-color="#A1205A"/>
@@ -12,9 +12,9 @@
     </defs>
     <g fill="none" fill-rule="evenodd">
         <mask id="2enizxgesd" fill="#fff">
-            <use xlink:href="#irm2f93n5a"/>
+            <use xlinkHref="#irm2f93n5a"/>
         </mask>
-        <use fill="url(#2dtqk917fb)" xlink:href="#irm2f93n5a"/>
+        <use fill="url(#2dtqk917fb)" xlinkHref="#irm2f93n5a"/>
         <path fill="url(#ny265bm0fc)" fill-opacity=".7" d="M4 8L28 8 4 28z" mask="url(#2enizxgesd)"/>
         <circle cx="9.5" cy="13.5" r="2.5" fill="#FFF" fill-opacity=".5" fill-rule="nonzero" mask="url(#2enizxgesd)"/>
         <rect width="10" height="5" x="19" y="20" fill="#3A63C6" fill-rule="nonzero" mask="url(#2enizxgesd)" rx="2.5"/>
