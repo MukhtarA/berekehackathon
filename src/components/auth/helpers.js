@@ -3,7 +3,7 @@ import _ from "lodash";
 
 import { MobileActions } from "../../utils/mobile-actions";
 
-export const authUrl = `https://clientid2.berekebank.kz/auth/realms/sberid`;
+export const authUrl = `http://localhost:7777/https://clientid2.berekebank.kz/auth/realms/sberid`;
 
 export const setTokens = (accessToken, refreshToken, username) => {
   localStorage.setItem("access_token", accessToken);

@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
+    "@hookform/resolvers": "^1.0.0-rc.2",
     "@material-ui/core": "^4.12.4",
+    "@ozen-ui/icons": "^0.0.2",
+    "@ozen-ui/kit": "^0.0.2",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -20,6 +23,8 @@
     "camelcase": "^6.2.1",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "chart.js": "2.9.4",
+    "concurrently": "^8.2.0",
+    "cors-anywhere": "^0.4.4",
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^3.2.0",
     "date-fns": "2.17.0",
@@ -51,6 +56,7 @@
     "react-collapse": "5.0.1",
     "react-dev-utils": "^12.0.1",
     "react-dom": "16.14.0",
+    "react-hook-form": "^7.45.2",
     "react-i18next": "^13.0.1",
     "react-icons": "^4.10.1",
     "react-imask": "6.0.5",
@@ -74,7 +80,8 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1"
+    "workbox-webpack-plugin": "^6.4.1",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "11.2.0",
@@ -88,7 +95,7 @@
     "esm": "3.2.25"
   },
   "scripts": {
-    "start": "DISABLE_ESLINT_PLUGIN=true  react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"node cors.js\" DISABLE_ESLINT_PLUGIN=true",
     "build": "react-scripts build",
     "test": "node scripts/test.js"
   },

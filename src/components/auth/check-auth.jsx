@@ -7,9 +7,9 @@ const CheckAuth = () => {
     const { pathname } = useLocation()
     const accessToken = getAccessToken()
 
-    if (process.env.IGNORE_AUTH) {
-        return null
-    }
+    // if (process.env.IGNORE_AUTH) {
+    //     return null
+    // }
 
     if (accessToken && accessToken !== 'undefined') {
         if (pathname === '/login') {
