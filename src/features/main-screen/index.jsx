@@ -21,7 +21,7 @@ const MainScreen = () => {
   const router = useHistory();
 
   const handleClick = () => {
-    router.push(`${baseUrl}/docs-form`);
+    router.push(`/docs-form`);
   };
 
   const handleGoBack = () => {

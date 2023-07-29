@@ -24,7 +24,7 @@ const SetPassword = () => {
             setErrorMessage('Пароль и подтверждение пароля не совпадают');
         } else {
             setErrorMessage('');
-            router.push(`${baseUrl}/get-card`);
+            router.push(`/get-card`);
         }
     };
 

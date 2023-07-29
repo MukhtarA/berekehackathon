@@ -46,7 +46,7 @@ const GetCard = () => {
         event.preventDefault();
         if (confirm) {
             setErrorMessage('');
-            router.push(`${baseUrl}/salary-accept`);
+            router.push(`/salary-accept`);
         } else {
             setErrorMessage('Необходимо подтвердить согласие с условиями');
         }

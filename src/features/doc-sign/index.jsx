@@ -30,7 +30,7 @@ const DocSign = () => {
     const handleStep = () => {
         if (agreement && instruction) {
             setErrorMessage('');
-            router.push(`${baseUrl}/offer-acceptance`);
+            router.push(`/offer-acceptance`);
         } else {
             setErrorMessage('Необходимо подтвердить согласие с условиями');
         }

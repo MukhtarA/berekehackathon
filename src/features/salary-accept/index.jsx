@@ -26,7 +26,7 @@ const SalaryAccept = () => {
         event.preventDefault();
         if (confirm) {
             setErrorMessage('');
-            router.push(`${baseUrl}/doc-sign`);
+            router.push(`/doc-sign`);
         } else {
             setErrorMessage('Необходимо подтвердить согласие с условиями');
         }

@@ -34,7 +34,7 @@ const DocsForm = () => {
             setStep((prev) => prev + 1)
             setFile('')
         }  else if (step === 7) {
-            router.push(`${baseUrl}/docs-complete`)
+            router.push(`/docs-complete`)
         }
         setDocNumb(currDoc => {
             if (currDoc === null || currDoc === undefined) {

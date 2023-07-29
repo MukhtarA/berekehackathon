@@ -17,7 +17,7 @@ const DocsComplete = () => {
             <ScreenLayout.Footer>
                 <ButtonPrimary
                     style={{ marginBottom: 20, backgroundColor: '#379535', color: "white" }}
-                    onClick={() => router.push(`${baseUrl}/set-password`)}
+                    onClick={() => router.push(`/set-password`)}
                     title={"Продолжить"}
                     fullWidth
                 />
