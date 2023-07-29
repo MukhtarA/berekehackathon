@@ -33,7 +33,7 @@ function App(history) {
               <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/offer-acceptance" component={OfferAcceptance} />
               <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/doc-sign" component={DocSign} />
               <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/salary-accept" component={SalaryAccept} />
-              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/get-card" component={GetCard} />
+            clear  <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/get-card" component={GetCard} />
               <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/set-password" component={SetPassword} />
             </Switch>
           </Router>
