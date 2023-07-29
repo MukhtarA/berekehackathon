@@ -2,9 +2,6 @@ import React, { useState, useCallback, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import _isEmpty from 'lodash/isEmpty'
 import { Trans, useTranslation } from 'react-i18next'
-import { Icon } from '@sbol/design-system/core/icon'
-import { Typography } from '@sbol/design-system/core/typography'
-import { Alert } from '@sbol/design-system/core/alert'
 
 import {
     FileUploadStyled,
@@ -95,7 +92,7 @@ export const FileUpload = ({ value, name, dragIKey, multiple, onChange, error, .
                         colorScheme="success"
                     />
                     <div>
-                        <Typography>{item.name}</Typography>
+                        <p>{item.name}</p>
                         {props.status}
                     </div>
                     <DeleteStyled onClick={handleDel(item.name)}>
@@ -113,9 +110,9 @@ export const FileUpload = ({ value, name, dragIKey, multiple, onChange, error, .
 
     const noFiles = (
         <NoFileStyled>
-            <Icon icon={uploadSvg} />
+            <img style={{ width: 25, height: 25 }} src={uploadSvg} />
             <Trans t={t} i18nKey={dragIKey}>
-                <Typography colorScheme="tertiary" />
+                <p colorScheme="tertiary" />
                 <LinkStyled as="label" htmlFor="file-input-upload" colorScheme="brandPrimary" />
             </Trans>
         </NoFileStyled>
@@ -134,7 +131,6 @@ export const FileUpload = ({ value, name, dragIKey, multiple, onChange, error, .
             />
             <FileUploadStyled onDrop={handleDrop} onDragOver={handleDragOver}>
                 {_isEmpty(files) ? noFiles : list}
-                {error && <Alert mode="warning">{error}</Alert>}
             </FileUploadStyled>
         </>
     )

@@ -13,6 +13,7 @@ import {
 } from './style'
 
 import searchIcon from './assets/search.svg'
+import arrowLeft from './assets/arrow-left.svg'
 
 const Header = ({
     title,
@@ -67,10 +68,10 @@ const Header = ({
     return (
         <HeaderWrapperStyled backgroundImg={backgroundImg} ref={headerRef} {...rest}>
             <HeaderStyled backgroundImg={backgroundImg}>
-                <IconLoader
-                    name={iconName}
+                <img
+                    style={{ width: 25, height: 25, color: '#379535' }}
+                    src={arrowLeft}
                     onClick={onClick || goBack}
-                    colorScheme={colorScheme || 'brandPrimary'}
                 />
                 <HeaderContentStyled>
                     {title && (

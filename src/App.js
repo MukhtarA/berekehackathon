@@ -3,35 +3,34 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ButtonPrimary, IconLoader, Typography } from "./components";
 
 import * as common from "./assets/common";
-import DemoScreen from "./features/demo-screen";
-import ComponentsScreen from "./features/components-screen";
-import { CheckAuth, getAccessToken, LoginPage, softTokenRefresh } from "./components/auth";
-import Demo2Screen from "./features/demo2-screen";
-import DemoHackaton from "./features/demo-hackaton";
+import MainScreen from "./features/main-screen";
+import DocsForm from "./features/docs-form";
+import DocsComplete from "./features/docs-complete";
+import OfferAcceptance from "./features/offer-acceptance";
+import DocSign from "./features/doc-sign";
+import SalaryAccept from "./features/salary-accept";
+import SetPassword from "./features/set-password";
+import GetCard from "./features/get-card";
 
 import { ThemeProvider, themeOzenDefault } from "@ozen-ui/kit/ThemeProvider";
-import { Dummy } from "./features/dummy";
 import { ProductProvider } from "./features/dummy/ProductContext";
 
 IconLoader.addIcons("icon:core/common", common);
 
 function App(history) {
-
-  setTimeout(() => softTokenRefresh(), 50000)
-
   return (
     <ThemeProvider theme={themeOzenDefault}>
       <ProductProvider>
         <Router history={history}>
-        <CheckAuth />
           <Switch>
-            <Route exact path="/" component={DemoScreen} />
-            <Route exact path="/components" component={ComponentsScreen} />
-            <Route exact path="/login" component={LoginPage} />
-            <Route exact path="/demo2" component={Demo2Screen} />
-            <Route exact path="/demo3" component={DemoHackaton} />
-
-            <Route exact path="/dummy" component={Dummy} />
+            <Route exact path="/" component={MainScreen} />
+            <Route exact path="/docs-form" component={DocsForm} />
+            <Route exact path="/docs-complete" component={DocsComplete} />
+            <Route exact path="/offer-acceptance" component={OfferAcceptance} />
+            <Route exact path="/doc-sign" component={DocSign} />
+            <Route exact path="/salary-accept" component={SalaryAccept} />
+            <Route exact path="/get-card" component={GetCard} />
+            <Route exact path="/set-password" component={SetPassword} />
           </Switch>
         </Router>
       </ProductProvider>

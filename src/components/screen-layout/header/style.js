@@ -4,7 +4,6 @@ export const HeaderWrapperStyled = styled.div`
   position: sticky;
   top: 0;
   width: 100%;
-  height: 150px;
   background-image: url(${({ backgroundImg }) => backgroundImg});
   background-size: cover;
   background-color: ${({ theme }) => theme.noColor};

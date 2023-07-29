@@ -1,0 +1,41 @@
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.card-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.card-option {
+    color: #333;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.wrapper-desc {
+    display: flex; 
+    align-items: center;
+}
+
+.left-desc {
+    flex: 1;
+}
+
+.data-name {
+    font-size: 16px;
+    color: #5d5d5d;
+    font-weight: 500;
+}
+
+.data-value  {
+    font-size: 18px;
+    font-weight: 500;
+}
