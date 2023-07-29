@@ -38,7 +38,6 @@ const GetCard = () => {
     const router = useHistory();
 
     const handleCheck = (event) => {
-        console.dir(event.target.checked);
         setConfirm(state => !state);
     }
 
@@ -97,7 +96,7 @@ const GetCard = () => {
                 {
                     errorMessage &&
                     <>
-                        <br />
+                        <div style={{marginBottom: '5px'}}/>
                         <Alert
                             status="warning"
                             title="Внимание"

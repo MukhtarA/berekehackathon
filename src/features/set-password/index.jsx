@@ -22,7 +22,6 @@ const SetPassword = () => {
         } else if (pass !== confirmPass) {
             setErrorMessage('Пароль и подтверждение пароля не совпадают');
         } else {
-            console.log('Успешно!')
             setErrorMessage('');
             router.push('/get-card');
         }

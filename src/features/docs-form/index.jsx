@@ -1,4 +1,4 @@
-import React, {useCallback, useMemo, useState} from 'react'
+import React, {useCallback, useMemo, useState, useContext} from 'react'
 import { ScreenLayout } from '../../components/screen-layout'
 import {ButtonPrimary, HorizontalScroll, Typography} from '../../components'
 import { Stepper, Step } from 'react-form-stepper';
@@ -13,10 +13,12 @@ import six from '../../assets/docsImages/6.png'
 import seven from '../../assets/docsImages/7.png'
 import eight from '../../assets/docsImages/8.png'
 import {useHistory} from "react-router-dom";
+import DocsContext from '../context/docs';
 
 const DocsForm = () => {
+    const {docNumb, setDocNumb} = useContext(DocsContext);
     const router = useHistory();
-    const [step, setStep] = useState(0)
+    const [step, setStep] = useState(docNumb ?? 0)
     const [file, setFile] = useState(null)
 
     // activeBgColor: string;
@@ -33,6 +35,13 @@ const DocsForm = () => {
         }  else if (step === 7) {
             router.push('/docs-complete')
         }
+        setDocNumb(currDoc => {
+            if (currDoc === null || currDoc === undefined) {
+              return 0;
+            } else {
+              return currDoc + 1;
+            }
+          });
     }, [step])
 
     const handleSubmitFile = useCallback((value) => {
@@ -54,7 +63,6 @@ const DocsForm = () => {
         0: 'Анкета по учету персонала',
         1: 'Форма о раскрытии конфликта интересов',
     }
-
 
     const renderImage = useMemo(() => <img style={{ width: '100%' }} src={filesAppearance[step]} alt={step} />, [step])
 
