@@ -20,13 +20,6 @@ const MainScreen = () => {
   const router = useHistory();
 
   const handleClick = () => {
-    // setDocNumb(currDoc => {
-    //   if (currDoc === null || currDoc === undefined) {
-    //     return 0;
-    //   } else {
-    //     return currDoc + 1;
-    //   }
-    // });
     router.push('/docs-form');
   };
 
@@ -37,7 +30,6 @@ const MainScreen = () => {
   const handleChecked = (currDoc) => {
     if (docNumb === null && docNumb === undefined) return false
     if (docNumb >= currDoc) {
-      // setDocNumb(currDoc);
       return true
     }
 
@@ -68,7 +60,6 @@ const MainScreen = () => {
                 {/* <Checkbox disabled checked={item.isChecked} /> */}
                 <Checkbox
                   defaultChecked
-                  // label="Получать уведомления"
                   size="m"
                   checked={item.isChecked}
                   disabled
