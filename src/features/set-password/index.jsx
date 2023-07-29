@@ -5,6 +5,7 @@ import LabeledInput from "../../components/inputs/labeled-input";
 import { Alert } from '@ozen-ui/kit/Alert';
 import { ButtonPrimary } from "../../components";
 import { useHistory } from "react-router-dom";
+import baseUrl from "../context/const";
 
 const SetPassword = () => {
     const [pass, setPass] = useState('');
@@ -23,7 +24,7 @@ const SetPassword = () => {
             setErrorMessage('Пароль и подтверждение пароля не совпадают');
         } else {
             setErrorMessage('');
-            router.push('/get-card');
+            router.push(`${baseUrl}/get-card`);
         }
     };
 

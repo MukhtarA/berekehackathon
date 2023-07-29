@@ -14,6 +14,7 @@ import seven from '../../assets/docsImages/7.png'
 import eight from '../../assets/docsImages/8.png'
 import {useHistory} from "react-router-dom";
 import DocsContext from '../context/docs';
+import baseUrl from '../context/const';
 
 const DocsForm = () => {
     const {docNumb, setDocNumb} = useContext(DocsContext);
@@ -33,7 +34,7 @@ const DocsForm = () => {
             setStep((prev) => prev + 1)
             setFile('')
         }  else if (step === 7) {
-            router.push('/docs-complete')
+            router.push(`${baseUrl}/docs-complete`)
         }
         setDocNumb(currDoc => {
             if (currDoc === null || currDoc === undefined) {

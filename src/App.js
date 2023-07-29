@@ -25,16 +25,16 @@ function App(history) {
     <DocsContext.Provider value={{docNumb, setDocNumb}}>
         <ThemeProvider theme={themeOzenDefault}>
         <ProductProvider>
-          <Router history={history}>
+          <Router history={history} baseUrl="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2">
             <Switch>
-              <Route exact path="/" component={MainScreen} />
-              <Route exact path="/docs-form" component={DocsForm} />
-              <Route exact path="/docs-complete" component={DocsComplete} />
-              <Route exact path="/offer-acceptance" component={OfferAcceptance} />
-              <Route exact path="/doc-sign" component={DocSign} />
-              <Route exact path="/salary-accept" component={SalaryAccept} />
-              <Route exact path="/get-card" component={GetCard} />
-              <Route exact path="/set-password" component={SetPassword} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/" component={MainScreen} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/docs-form" component={DocsForm} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/docs-complete" component={DocsComplete} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/offer-acceptance" component={OfferAcceptance} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/doc-sign" component={DocSign} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/salary-accept" component={SalaryAccept} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/get-card" component={GetCard} />
+              <Route exact path="/1a1992698-513e-40f4-ac37-cea219ec5245/hackathon2/set-password" component={SetPassword} />
             </Switch>
           </Router>
         </ProductProvider>

@@ -3,6 +3,7 @@ import {ScreenLayout} from "../../components/screen-layout";
 import {ButtonPrimary} from "../../components";
 import complete from '../../assets/docsImages/completeDoc.jpg'
 import {useHistory} from "react-router-dom";
+import baseUrl from "../context/const";
 
 const DocsComplete = () => {
     const router = useHistory();
@@ -16,7 +17,7 @@ const DocsComplete = () => {
             <ScreenLayout.Footer>
                 <ButtonPrimary
                     style={{ marginBottom: 20, backgroundColor: '#379535', color: "white" }}
-                    onClick={() => router.push('/set-password')}
+                    onClick={() => router.push(`${baseUrl}/set-password`)}
                     title={"Продолжить"}
                     fullWidth
                 />

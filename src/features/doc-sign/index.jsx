@@ -8,6 +8,7 @@ import {Checkbox} from "@ozen-ui/kit/Checkbox"
 import {DocumentIcon} from "@ozen-ui/icons";
 import {Divider} from "@ozen-ui/kit/Divider";
 import {Alert} from "@ozen-ui/kit/Alert";
+import baseUrl from "../context/const";
 
 const DocSign = () => {
     const router = useHistory();
@@ -29,7 +30,7 @@ const DocSign = () => {
     const handleStep = () => {
         if (agreement && instruction) {
             setErrorMessage('');
-            router.push('/offer-acceptance');
+            router.push(`${baseUrl}/offer-acceptance`);
         } else {
             setErrorMessage('Необходимо подтвердить согласие с условиями');
         }

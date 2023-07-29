@@ -7,6 +7,7 @@ import { DocumentIcon } from '@ozen-ui/icons';
 import {Divider} from "@ozen-ui/kit/Divider";
 import {MobileActions} from "../../utils/mobile-actions";
 import DocsContext from "../context/docs";
+import baseUrl from "../context/const";
 
 const path = [
   { path: "/dummy", name: "Dummy" },
@@ -20,7 +21,7 @@ const MainScreen = () => {
   const router = useHistory();
 
   const handleClick = () => {
-    router.push('/docs-form');
+    router.push(`${baseUrl}/docs-form`);
   };
 
   const handleGoBack = () => {

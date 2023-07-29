@@ -12,6 +12,7 @@ import {
     TengeIcon
  } from '@ozen-ui/icons';
 import './get-card.css'
+import baseUrl from "../context/const";
 
 const GetCard = () => {
     const [confirm, setConfirm] = useState(false)
@@ -45,7 +46,7 @@ const GetCard = () => {
         event.preventDefault();
         if (confirm) {
             setErrorMessage('');
-            router.push('/salary-accept');
+            router.push(`${baseUrl}/salary-accept`);
         } else {
             setErrorMessage('Необходимо подтвердить согласие с условиями');
         }
